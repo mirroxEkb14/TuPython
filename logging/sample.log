@@ -1,0 +1,17 @@
+2022-07-11 12:53:45,446:DEBUG:Add: 10 + 5 = 15
+
+2022-07-11 12:53:45,446:DEBUG:Sub: 10 - 5 = 5
+
+2022-07-11 12:53:45,446:DEBUG:Mul: 10 * 5 = 50
+
+2022-07-11 12:53:45,446:DEBUG:Div: 10 / 5 = 2.0
+
+2022-07-11 12:54:05,852:DEBUG:Add: 10 + 0 = 10
+2022-07-11 12:54:05,852:DEBUG:Sub: 10 - 0 = 10
+2022-07-11 12:54:05,852:DEBUG:Mul: 10 * 0 = 0
+2022-07-11 12:54:05,852:ERROR:Tried to divide by zero
+Traceback (most recent call last):
+  File "C:\Users\user\TuPython\logging\logging_basics1.py", line 52, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2022-07-11 12:54:05,852:DEBUG:Div: 10 / 0 = None

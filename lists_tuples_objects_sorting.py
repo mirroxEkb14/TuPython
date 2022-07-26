@@ -1,4 +1,8 @@
 
+"""
+Lists are mutable, tuples are not
+"""
+
 li = [9, 1, 8, 2, 7, 3, 6, 4, 5]
 s_li = sorted(li, reverse=True) # returns a new list, the original one remains the same
 print('Sorted Variable:\t', s_li)
